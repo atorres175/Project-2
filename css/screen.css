@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap');
 
 html{
     font-family: "Playfair Display", sans-serif, serif;
@@ -17,7 +18,12 @@ footer {
     font-size: 0.5em; /*10px/20px*/
   }
 
+
 /*Change Site Styles below */
+.navigation {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
   .nav li {
     padding-bottom: 0.4em; /*8px/20px*/
   }
