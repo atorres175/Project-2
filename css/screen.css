@@ -26,6 +26,7 @@ img {
   }
 nav{
     font-family: 'Nunito Sans', sans-serif;
+    max-width: 100%;
 }
 
 /*Change Site Styles below */
