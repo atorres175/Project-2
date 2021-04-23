@@ -23,11 +23,12 @@ img {
     max-width: 100%;
     position: absolute;
   }
-
-/*Change Site Styles below */
-.nav{
+nav{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+/*Change Site Styles below */
+
 
   .nav li {
     padding-bottom: 0.4em; /*8px/20px*/
