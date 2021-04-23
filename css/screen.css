@@ -22,6 +22,7 @@ img {
     height: 150px;
     max-width: 100%;
     position: relative;
+    padding-bottom: .25em;
   }
 nav{
     font-family: 'Nunito Sans', sans-serif;
