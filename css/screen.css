@@ -17,8 +17,8 @@ footer {
   .nav a {
     display: block;
     text-decoration: none;
-    background: rgb(31,164,157);
-    background: linear-gradient(90deg, rgba(31,164,157,1) 37%, rgba(70,252,79,1) 100%);
+    background: rgb(115,179,210);
+    background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%); 
     padding: 0.45em; /*9px/20px*/
   }
   .nav a:hover {
