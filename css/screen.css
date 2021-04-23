@@ -11,6 +11,7 @@ footer {
     font-size: 0.5em; /*10px/20px*/
   }
 
+/*Change Site Styles below */
   .nav li {
     padding-bottom: 0.4em; /*8px/20px*/
   }
@@ -23,5 +24,35 @@ footer {
   }
   .nav a:hover {
     background: #f4853b;
+  }
+
+
+
+  /*Begin State Styles below  */
+  @media screen and (min-width: 20.625em) {
+    .nav::after {
+      content: "";
+      display: block;
+      clear: both;
+      float: none;
+    }
+    .nav li {
+      float: left;
+      width: 25%;
+      text-align: center;
+    }
+    .nav a {
+      margin-right: 0.4em; /*8px/20px*/
+    }
+    .nav li:last-child a {
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 40.625em) {
+    /*650px/16px*/
+    .nav {
+      width: 66.6666666667%;
+    }
   }
   
