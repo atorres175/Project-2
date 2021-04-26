@@ -1,9 +1,79 @@
-label {
-  padding-top: 1em;
-  display: block;
-  justify-content: center;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+html{
+    font-family: "Playfair Display", sans-serif, serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    padding: 1.25em .625em 1.25em .625em
 }
 
-form {
-   background-color: #dcdfe3; 
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.5em; /*10px/20px*/
+  }
+img {
+    width:150px;
+    height: 150px;
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 1 em;
+  }
+nav{
+    font-family: 'Nunito Sans', sans-serif;
 }
+
+/*Change Site Styles below */
+
+
+  .nav li {
+    padding-bottom: 0.4em; /*8px/20px*/
+  }
+  .nav a {
+    display: block;
+    text-decoration: none;
+    background: rgb(115,179,210);
+    background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%); 
+    padding: 0.45em; /*9px/20px*/
+  }
+  .nav a:hover {
+    background: #f4853b;
+  }
+
+ 
+
+  /*Begin State Styles below  */
+  @media screen and (min-width: 20.625em) {
+    .nav::after {
+      content: "";
+      display: block;
+      clear: both;
+      float: none;
+    }
+    .nav li {
+      float: left;
+      width: 25%;
+      text-align: center;
+    }
+    .nav a {
+      margin-right: 0.4em; /*8px/20px*/
+    }
+    .nav li:last-child a {
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 40.625em) {
+    /*650px/16px*/
+    .nav {
+      width: 66.6666666667%;
+    }
+  }
+  
+
