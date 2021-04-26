@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap');
 
+
+
 html{
     font-family: "Playfair Display", sans-serif, serif;
     font-size: 1.25em;
@@ -29,6 +31,18 @@ nav{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+input {
+  text-align: center;
+  margin: 1%;
+}
+
+html {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
 /*Change Site Styles below */
 
 
@@ -39,14 +53,16 @@ nav{
     display: block;
     text-decoration: none;
     background: rgb(115,179,210);
-    background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%); 
+    background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%);
     padding: 0.45em; /*9px/20px*/
   }
   .nav a:hover {
     background: #f4853b;
   }
 
- 
+  form {
+    background-color: #a0c0eb;
+ }
 
   /*Begin State Styles below  */
   @media screen and (min-width: 20.625em) {
@@ -68,12 +84,10 @@ nav{
       margin-right: 0;
     }
   }
-  
+
   @media screen and (min-width: 40.625em) {
     /*650px/16px*/
     .nav {
       width: 66.6666666667%;
     }
   }
-  
-
