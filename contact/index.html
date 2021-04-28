@@ -10,7 +10,7 @@
 <body>
     <header id="header">
         <link rel="icon" sizes="192x192" href="https://static.parastorage.com/client/pfavico.ico">
-        <h1></h1>
+        <h1>Contact</h1>
         <nav id="navigation">
         <ul class="nav">
           <li><a href="../index.html">Home</a></li>
@@ -25,28 +25,22 @@
           <h2>Fill out this imformation below to reach us:</h2>
           <div id="error"></div>
           <form id="form-a" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
-            <ul class="info">
-         <li>
-           <label for="name">Name:</label>
-           <input id="name" type="text" name="name">
-         </li>
-         <li>
-           <label for="email">Email:</label>
-           <input id="email" type="email" name="email">
-         </li>
-         <li>
-            <label for="Message">Message:</label>
-            <input type="text" id="rMessage" name="Message" placeholder="Type Here">
-          </li>
-         <li id="email">
-           <label for="confirm">Check the box to subscribe to weekly emails.</label>
-           <input id="confirm" type="checkbox" name="confirm">
-         </li>
-         <li id="sub-btn">
-           <input type="submit" value="Submit" onclick=thanks()>
-           <input type="reset" value="Clear" onclick="clean()">
-         </li>
-       </ul>
+              <label>
+            First name:
+            <input id="F_name" type = "text" name = "F_name" />
+              </label>
+              <label>
+            Last name:
+             <input id = "L_name" type = "text" name = "L_name" />
+              </label>
+              <label>
+            Email: <input id = "Email" type = "text" name = "Email" />
+              </label>
+              <label>
+            Message:
+            </label> </label>
+            <input type="text" id="reason" name="reason" placeholder="Type Here">
+              <button onclick="revealMessage()">Submit</button>
               <p id="Message" style="display:none">Thank you for reaching out</p>
             </label>
          </form>
