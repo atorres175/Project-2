@@ -51,6 +51,9 @@ html{
 /*Change Site Styles below */
 
 
+  .aboutUsP {
+    padding: 50px 5% 50px 5%;
+  }
   .nav li {
     padding-bottom: 0.4em; /*8px/20px*/
   }
