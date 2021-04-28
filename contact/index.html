@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="../css/resets.css" />
   <link rel="stylesheet" href="../css/screen.css" />
   <meta charset="utf-8" />
+  <script src="js/script.js"></script>
 </head>
 <body>
     <header id="header">
@@ -19,8 +20,34 @@
       </nav>
       </header>
       <main>
+        <main id ="content">
+          <h1>Thank you for your interest!</h1>
+          <h2>Fill out this imformation below to reach us:</h2>
+          <div id="error"></div>
+          <form id="form-a" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
+              <label>
+            First name:
+            <input id="F_name" type = "text" name = "F_name" />
+              </label>
+              <label>
+            Last name:
+             <input id = "L_name" type = "text" name = "L_name" />
+              </label>
+              <label>
+            Email: <input id = "Email" type = "text" name = "Email" />
+              </label>
+              <label>
+            Message:
+            </label> </label>
+            <input type="text" id="reason" name="reason" placeholder="Type Here">
+              <button onclick="revealMessage()">Submit</button>
+              <p id="Message" style="display:none">Thank you for reaching out</p>
+            </label>
+         </form>
+         </main>
 
       </main>
+
       <footer id="footer">
         <p> Site © Get-Valid Organization. All rights reserved.</p>
       </footer>
