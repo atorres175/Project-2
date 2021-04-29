@@ -76,10 +76,14 @@ input {
     background: #f4853b;
   }
 
-  form {
-    background-color: #a0c0eb;
-    padding-top: 1em
+  .pic {
+    background-image: url(../media/cropped-isudlogo1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color: #ffffff
  }
+
 
  footer {
   font-size: .85em;
@@ -87,6 +91,7 @@ input {
   padding: 0.5em;
   background-color: #b0b2b5;
   color: #ffffff;
+  padding-bottom: 10em
 }
 
  .contacthead {
@@ -111,6 +116,7 @@ input {
   border-radius: 4px;
   box-shadow: 3px 3px 3px;
  }
+
 
 
   /*Begin State Styles below  */
