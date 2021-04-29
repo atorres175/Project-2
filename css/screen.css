@@ -89,15 +89,16 @@ input {
   color: #ffffff;
 }
 
-#contacthead {
+ .contacthead {
   font-size: 1.875em
 }
 
-#subhead {
+.subhead {
   font-size: 1.25em
+
 }
-#lhead {
-  padding-top: 50em
+
+.lhead  {
   font-size: .833em
 
 }
