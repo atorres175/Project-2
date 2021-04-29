@@ -88,6 +88,10 @@ input {
   color: #ffffff;
 }
 
+#contacthead {
+  font-size: 1.25em
+}
+
   /*Begin State Styles below  */
   @media screen and (min-width: 20.625em) {
     .nav::after {
