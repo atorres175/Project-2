@@ -3,12 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap');
 
-h1 {
-  padding-top: .5em
-}
-h2 {
-  padding-top: 1em
-}
+
 
 html{
     font-family: "Playfair Display", sans-serif, serif;
@@ -35,12 +30,7 @@ input {
   margin: 1%;
 }
 
-html{
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    max-width: 100%;
-  }
+
 
 
 /*Change Site Styles below */
@@ -75,9 +65,14 @@ html{
     background: #f4853b;
   }
 
-  form {
-    background-color: #a0c0eb;
+  .pic {
+    background-image: url(../media/cropped-isudlogo1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color: #ffffff
  }
+
 
  footer {
   font-size: .85em;
@@ -85,7 +80,49 @@ html{
   padding: 0.5em;
   background-color: #b0b2b5;
   color: #ffffff;
+  padding-bottom: 10em
 }
+
+ .contacthead {
+  font-size: 1.875em
+}
+
+.subhead {
+  font-size: 1.25em
+
+}
+
+.lhead  {
+  font-size: .833em
+
+}
+.btn {
+  width:100px;
+  margin-top:10px;
+  padding: 10px;
+  background-color:lightgrey;
+  border-style: double;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px;
+ }
+
+.textbox{
+  background: #f2f2f2;
+  border: none
+  padding: 12px;
+  border-radius: 3px;
+  width: 350px
+  display:inline-block;
+}
+
+.pic li{
+  border-radius: 2px;
+  padding-left: 3px;
+  padding:6px;
+  width:300px;
+}
+
+
 
   /*Begin State Styles below  */
   @media screen and (min-width: 20.625em) {
