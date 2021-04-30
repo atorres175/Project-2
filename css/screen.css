@@ -54,8 +54,16 @@ footer {
 .nav a:hover {
   background: #f4853b;
 }
+/* Home Page CSS */
+#logo{
+  width: 150px;
+  height: 150px;
+}
 
-/*Change Site Styles below */
+
+/*End of Home Page CSS */
+
+
 /*About us page CSS*/
 
 .aboutUsP {
@@ -110,10 +118,10 @@ footer {
 
 .textbox{
   background: #f2f2f2;
-  border: none
+  border: none;
   padding: 12px;
   border-radius: 3px;
-  width: 350px
+  width: 350px;
   display:inline-block;
 }
 
