@@ -56,6 +56,17 @@ footer {
 }
 
 /*Change Site Styles below */
+/* Home Page CSS */
+#logo{
+  width: 150px;
+  height: 150px;
+}
+
+
+/*End of Home Page CSS */
+
+
+
 /*Contact us page css*/
 
   .aboutUsP {
@@ -108,10 +119,10 @@ footer {
 
 .textbox{
   background: #f2f2f2;
-  border: none
+  border: none;
   padding: 12px;
   border-radius: 3px;
-  width: 350px
+  width: 350px;
   display:inline-block;
 }
 
