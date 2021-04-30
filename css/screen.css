@@ -40,17 +40,33 @@ footer {
 }
 
 
+/* navigation css*/
+.nav li {
+  padding-bottom: 0.4em; /*8px/20px*/
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  background: rgb(115,179,210);
+  background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%);
+  padding: 0.45em; /*9px/20px*/
+}
+.nav a:hover {
+  background: #f4853b;
+}
 
 /*Change Site Styles below */
-
+/*Contact us page css*/
 
   .aboutUsP {
     padding: 50px 5% 50px 5%;
   }
+
   .aboutUs {
     padding: .5em 0px 1em 0px;
     font-size: 1.5em;
   }
+
   .aboutUsList {
     display: flex;
     justify-content:center;
@@ -58,19 +74,6 @@ footer {
     align-items: center;
     flex-direction: row;
     padding: 0 .8em .8em .8em;
-  }
-  .nav li {
-    padding-bottom: 0.4em; /*8px/20px*/
-  }
-  .nav a {
-    display: block;
-    text-decoration: none;
-    background: rgb(115,179,210);
-    background: linear-gradient(90deg, rgba(115,179,210,1) 0%, rgba(37,110,216,1) 90%);
-    padding: 0.45em; /*9px/20px*/
-  }
-  .nav a:hover {
-    background: #f4853b;
   }
 
   .pic {
@@ -81,9 +84,7 @@ footer {
     background-color: #ffffff
  }
 
-
-
- .contacthead {
+.contacthead {
   font-size: 1.875em
 }
 
@@ -93,8 +94,8 @@ footer {
 
 .lhead  {
   font-size: .833em
-
 }
+
 .btn {
   width:100px;
   margin-top:10px;
@@ -120,7 +121,7 @@ footer {
   padding:6px;
   width:300px;
 }
-
+/*End of contact us CSS*/
 
 
   /*Begin State Styles below  */
