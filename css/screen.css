@@ -54,8 +54,6 @@ footer {
 .nav a:hover {
   background: #f4853b;
 }
-
-/*Change Site Styles below */
 /* Home Page CSS */
 #logo{
   width: 150px;
@@ -66,26 +64,27 @@ footer {
 /*End of Home Page CSS */
 
 
+/*About us page CSS*/
+
+.aboutUsP {
+  padding: 50px 5% 50px 5%;
+}
+
+.aboutUs {
+  padding: .5em 0px 1em 0px;
+  font-size: 1.5em;
+}
+
+.aboutUsList {
+  display: flex;
+  justify-content:center;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 .8em .8em .8em;
+}
 
 /*Contact us page css*/
-
-  .aboutUsP {
-    padding: 50px 5% 50px 5%;
-  }
-
-  .aboutUs {
-    padding: .5em 0px 1em 0px;
-    font-size: 1.5em;
-  }
-
-  .aboutUsList {
-    display: flex;
-    justify-content:center;
-    align-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    padding: 0 .8em .8em .8em;
-  }
 
   .pic {
     background-image: url(../media/cropped-isudlogo1.jpg);
