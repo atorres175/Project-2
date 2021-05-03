@@ -7,7 +7,7 @@
 /* Color Scheme: https://paletton.com/#uid=13L0u0kkHFVakUbg4NgoUztv5uQ*/
 html{
     font-family: "Playfair Display", sans-serif, serif;
-    width:100%;
+    max-width:100%;
     font-size: 1.25em;
     line-height: 1.25em;
     padding: 1.25em .625em 1.25em .625em
@@ -74,9 +74,10 @@ footer {
 }
 
 .aboutUs {
-  padding: .25em 0px 1em 0px;
+  padding: .25em 0 1em 0;
   font-size: 1.875em;
   text-align: center;
+  background-color: rgb(120, 150, 219);
 }
 
 .aboutUsList {
@@ -87,12 +88,12 @@ footer {
   padding: 1em 20% 1em 20%;
 }
 
-h2{
+#aboutUsH2 {
   text-align: center;
   font-size: 1.5em;
 }
 
-img {
+.Aboutuspics {
   width: 33%;
   height: 12.5em;
 }
@@ -167,6 +168,26 @@ img {
     }
     .nav li:last-child a {
       margin-right: 0;
+    }
+
+    .aboutUsP {
+      font-size: 1.25em;
+      padding: 3.125em 10% 3.125em 10%;
+    }
+
+    .aboutUs {
+      padding: .25em 0 1em 0;
+      font-size: 1.875em;
+      text-align: center;
+      background-color: rgb(120, 150, 219);
+    }
+
+    .aboutUsList {
+      font-size: 1.25em;
+      display: inline-block;
+      text-align: left;
+      list-style: inside;
+      padding: 1em 20% 1em 20%;
     }
   }
 
