@@ -6,7 +6,7 @@
 
 /* Color Scheme: https://paletton.com/#uid=13L0u0kkHFVakUbg4NgoUztv5uQ*/
 html{
-    font-family: "Playfair Display", sans-serif, serif;
+    font-family: "Playfair Display", Times, Arial ,sans-serif,  ;
     font-size: 1.25em;
     line-height: 1.25em;
     padding: 1.25em .625em 1.25em .625em
@@ -150,6 +150,7 @@ footer {
     .nav a {
       margin-right: 0.4em; /*8px/20px*/
     }
+
     .nav li:last-child a {
       margin-right: 0;
     }
