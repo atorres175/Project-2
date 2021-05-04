@@ -6,7 +6,12 @@
 
 /* Color Scheme: https://paletton.com/#uid=13L0u0kkHFVakUbg4NgoUztv5uQ*/
 html{
+
     font-family: "Playfair Display", Times, Arial ,sans-serif,  ;
+
+    font-family: "Playfair Display", sans-serif, serif;
+    max-width:100%;
+
     font-size: 1.25em;
     line-height: 1.25em;
     padding: 1.25em .625em 1.25em .625em
@@ -67,22 +72,37 @@ footer {
 /*About us page CSS*/
 
 .aboutUsP {
-  padding: 50px 5% 50px 5%;
+  font-family: "Playfair Display", sans-serif, serif;
+  font-size: 1.25em;
+  padding: 3.125em 10% 3.125em 10%;
 }
 
 .aboutUs {
-  padding: .5em 0px 1em 0px;
-  font-size: 1.5em;
+  padding: .25em 0 1em 0;
+  font-size: 1.875em;
+  text-align: center;
+  background-color: rgb(120, 150, 219);
 }
 
 .aboutUsList {
-  display: flex;
-  justify-content:center;
-  align-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 0 .8em .8em .8em;
+  font-size: 1.25em;
+  display: inline-block;
+  text-align: left;
+  list-style: inside;
+  padding: 1em 20% 1em 20%;
 }
+
+#aboutUsH2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Aboutuspics {
+  width: 33%;
+  height: 12.5em;
+}
+
+/*End of About us page*/
 
 /*Contact us page css*/
 
@@ -153,6 +173,26 @@ footer {
 
     .nav li:last-child a {
       margin-right: 0;
+    }
+
+    .aboutUsP {
+      font-size: 1.25em;
+      padding: 3.125em 10% 3.125em 10%;
+    }
+
+    .aboutUs {
+      padding: .25em 0 1em 0;
+      font-size: 1.875em;
+      text-align: center;
+      background-color: rgb(120, 150, 219);
+    }
+
+    .aboutUsList {
+      font-size: 1.25em;
+      display: inline-block;
+      text-align: left;
+      list-style: inside;
+      padding: 1em 20% 1em 20%;
     }
   }
 
