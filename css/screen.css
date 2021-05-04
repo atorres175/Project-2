@@ -36,7 +36,7 @@ footer {
  padding-left: 0.5em;
  padding: 0.5em;
  background-color: #b0b2b5;
- color: #ffffff;
+ color: #0e0c0c;
  padding-bottom: 5em
 }
 
@@ -277,6 +277,25 @@ img {vertical-align: middle;}
       margin-left: auto;
       margin-right: auto;
       width: 65%;
+    }
+    /*Footer css  */
+    #left-footer{
+      color: #000;
+      float: left;
+      width: 30%;
+      padding: 10px;
+    }
+    #left-footer h4{
+      color: #000;
+      font-weight: bold;
+      padding-bottom: 5px;
+    }
+    #right-footer{
+      position: relative;
+      float: right;
+      float: bottom;
+      width: 30%;
+      padding: 10px;
     }
   }
 
