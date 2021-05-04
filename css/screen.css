@@ -60,6 +60,12 @@ footer {
   width: 150px;
   height: 150px;
 }
+#homepageimg{
+  display: flex;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+}
 
 
 /*End of Home Page CSS */
