@@ -59,14 +59,23 @@ footer {
 #logo{
   width: 150px;
   height: 150px;
-}
-#homepageimg{
-  display: flex;
-  padding: 20px;
-  width: 200px;
-  height: 250px;
+  padding: 5px;
 }
 
+#homeh1{
+  text-align: center;
+  font-family: "Playfair Display", sans-serif, serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.mySlides img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif; background-image: url("https://howardbrush.com/wp-content/uploads/2016/03/background-faded-web.jpg")}
 .mySlides {display: none;}
@@ -78,6 +87,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
+
 
 /* Caption text */
 .text {
@@ -131,6 +141,9 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+/*Footer Icons  */
 
 /*End of Home Page CSS */
 
@@ -230,7 +243,7 @@ img {vertical-align: middle;}
     }
     .nav li {
       float: left;
-      width: 25%;
+      width: 33%;
       text-align: center;
     }
     .nav a {
@@ -258,6 +271,12 @@ img {vertical-align: middle;}
       text-align: left;
       list-style: inside;
       padding: 1em 20% 1em 20%;
+    }
+    .mySlides img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 65%;
     }
   }
 
